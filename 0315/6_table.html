@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+  </head>
+  <body>
+    <table border="1" cellpadding="5" cellspacing="0" width="50%">
+      <caption>購物清單</caption>
+      <thead>
+        <tr>
+          <th>商品名稱</th>
+          <th>單價</th>
+          <th>數量</th>
+          <th>小計</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>筆記型電腦</td>
+          <td align="right">$25,000</td>
+          <td align="right" rowspan="2">2</td>
+          <td align="right">$50,000</td>
+        </tr>
+        <tr>
+          <td>無線滑鼠</td>
+          <td align="right">$800</td>
+          <!--<td align="right">2</td>-->
+          <td align="right">$2,400</td>
+        </tr>
+        <tr>
+          <td>鍵盤</td>
+          <td align="right">$1,500</td>
+          <td align="right">3</td>
+          <td align="right">$3,000</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <th>總計</th>
+        <!--<td></td>-->
+        <td align="right" colspan="2">7</td>
+        <td align="right">$55,400</td>
+      </tfoot>
+    </table>
+  </body>
+</html>
