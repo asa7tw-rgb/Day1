@@ -36,7 +36,7 @@
       }
       .b {
         background: url("../picture/snoopy.jpg");
-        background-size: cover;
+        background-size: 100%;
         background-position: center;
         background-repeat: no-repeat;
       }
@@ -65,9 +65,14 @@
         background-repeat: no-repeat;
       }
       .g {
-        background-image: url("../picture/snoopy1.jpg");
-        background-position: center;
+        background-image:
+          url("../picture/snoopy1.jpg"), 
+          url("../picture/snoopy2.jpg"),
+          url("../picture/snoopy1.jpg");
+        background-size: 100% 33%;
+        background-position: left top, left center, left bottom;
         background-repeat: no-repeat;
+        
       }
       .h {
         background: linear-gradient(

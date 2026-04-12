@@ -1,11 +1,71 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<!doctype html>
+<html>
+  <head>
+    <style>
+      .test {
+        list-style: circle;
+      }
+
+      .demo-list {
+        margin: 20px;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+      }
+
+      .none-style {
+        list-style-type: none;
+      }
+      .disc-style {
+        list-style-type: disc;
+      }
+      .circle-style {
+        list-style-type: circle;
+      }
+      .square-style {
+        list-style-type: square;
+      }
+      .decimal-style {
+        list-style-type: decimal;
+      }
+      .alpha-style {
+        list-style-type: lower-alpha;
+      }
+      .roman-style {
+        list-style-type: lower-roman;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="test">
+      <ul>
+        <li>123456789</li>
+        <li>23456789</li>
+        <li>3456789</li>
+      </ul>
+    </div>
+    <hr />
+    <div class="demo-list">
+      <h4>不同符號樣式示範</h4>
+      <ul class="disc-style">
+        <li>預設實心圓點</li>
+        <li>適合一般清單</li>
+      </ul>
+
+      <ul class="square-style">
+        <li>正方形符號</li>
+        <li>較為正式的感覺</li>
+      </ul>
+
+      <ol class="decimal-style">
+        <li>數字編號</li>
+        <li>步驟說明最常用</li>
+      </ol>
+
+      <ol class="alpha-style">
+        <li>英文字母編號</li>
+        <li>適合分類項目</li>
+      </ol>
+    </div>
+  </body>
 </html>
