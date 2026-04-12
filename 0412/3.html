@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* 基礎樣式 */
+      body {
+        text-align: center;
+        font-family: "Microsoft JhengHei", sans-serif;
+        background-color: #f5f5f5;
+        padding: 20px;
+      }
+
+      table {
+        margin: 1rem auto;
+        border-collapse: separate;
+        border-spacing: 8px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      table td {
+        width: 200px;
+        height: 200px;
+        border: 2px solid #ddd;
+        border-radius: 4px;
+        position: relative;
+        overflow: hidden;
+      }
+      /* 在這裡完成各個格子的背景效果 */
+      .a {
+        background-color: blue;
+      }
+      .b {
+        background: url("../picture/snoopy.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .c {
+        background: url("../picture/snoopy.jpg");
+        background-size: 50px;
+        background-position: left top;
+        background-repeat: repeat-x;
+      }
+      .d {
+        background: url("../picture/snoopy.jpg");
+        background-size: 50px;
+        background-position: left top;
+        background-repeat: repeat-y;
+      }
+      .e {
+        background: url("../picture/snoopy.jpg");
+        background-size: 50px;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .f {
+        background: #9f9ee7 url("../picture/snoopy.jpg");
+        background-size: 50px;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .g {
+        background-image: url("../picture/snoopy1.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .h {
+        background: linear-gradient(
+          90deg,
+          rgba(42, 123, 155, 1) 0%,
+          rgba(87, 199, 133, 1) 50%,
+          rgb(250, 124, 152) 100%
+        );
+      }
+      .i {
+        background: radial-gradient(
+          circle,
+          rgb(250, 5, 5) 12%,
+          rgb(243, 88, 93) 24%,
+          rgb(247, 144, 144) 67%,
+          rgb(245, 191, 117) 100%
+        );
+      }
+      .g {
+      }
+    </style>
+  </head>
+  <body></body>
+  <table>
+    <tr>
+      <td class="a"></td>
+      <td class="b"></td>
+      <td class="c"></td>
+    </tr>
+    <tr>
+      <td class="d"></td>
+      <td class="e"></td>
+      <td class="f"></td>
+    </tr>
+    <tr>
+      <td class="g"></td>
+      <td class="h"></td>
+      <td class="i"></td>
+    </tr>
+  </table>
+</html>
