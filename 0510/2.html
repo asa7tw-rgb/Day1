@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+  body {
+    background: #333;
+    margin: 0;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+
+  /* 宣告關鍵影格為動畫、動畫名稱、開始、結束 */
+  div.base {
+    width: 100px;
+    height: 100px;
+    background: red;
+
+    /* 動畫名稱 */
+    animation-name: demo1;
+    /* 動畫間隔 */
+    animation-duration: 6s;
+    /* 速度函式 */
+    animation-timing-function: ease;
+    /* 動畫延遲 */
+    animation-delay: 1s;
+    /* 播放次數 */
+    animation-iteration-count: infinite;
+    /* 循環交替或反向播放*/
+    animation-direction: normal;
+    /*播放基數次時可考慮是否要停留於尾格，否則會還原到初始格狀態*/
+    animation-fill-mode: forwards;
+    
+    /* 以上可縮寫成 */
+    /*animation: demo1 1s infinite alternate forwards;*/
+  }
+  @keyframes demo1 {
+    0%{
+      background: red;
+    }
+    20% {
+      background: orange;
+    }
+    40% {
+      background: yellow;
+    }
+    60% {
+      background: green;
+    }
+    80%{
+      background: blue;
+    }
+    100%{
+      background: purple;
+    }
+  }
+</style>
+<body>
+    
+<div class="base">HELLO WORLD</div>
+
+</body>
+</html>
