@@ -1,0 +1,31 @@
+body {
+  font-family: 'Roboto', 'Noto Sans TC', 'Open Sans', Helvetica, Arial;
+background: black;
+}
+
+#asaslide {
+.carousel-item {
+padding-bottom: 180px;
+background: black;
+
+
+img{
+  filter: grayscale(50%) sepia(80%)
+}
+
+&>button>i{
+  color: blue;
+}
+}
+}
+@media screen and (min-width:768) {
+  #asa1{
+article {
+  padding-top: 200px;
+
+  .col
+}
+}
+}
+  
+

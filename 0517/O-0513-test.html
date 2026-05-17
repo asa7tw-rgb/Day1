@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap-5.3.8-dist/css/bootstrap.css">
+    <script src="../bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        body {
+            background: lightslategray;
+        }
+
+        .content {
+            width: auto;
+            margin: 10px auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+
+        div.benner {
+            display: flex;
+            color: white;
+            width: 500px;
+            height: 100px;
+            background: lightslategray;
+            margin: 10px auto;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 3rem;
+            border-radius: 20%;
+        }
+
+
+        div.imgs {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            padding-right: 10px;
+            box-sizing: border-box;
+        }
+
+        div.imgs img {
+            width: 300px;
+            border-radius: 20px;
+        }
+
+        div.rgb {
+            font-size: 5rem;
+            font-family: Arial, Helvetica, sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 1rem;
+            animation: rgb 5s linear infinite, Breat 10s linear infinite;
+            padding: 5px 0 5px 1rem;
+            border: 1px solid white;
+        }
+
+        @keyframes rgb {
+
+            0%,
+            100% {
+                text-shadow: 0px 0px 1rem #ff0000ff, 0px 0px 5rem #ff000099;
+            }
+
+            33% {
+                text-shadow: 0px 0px 1rem #00ff00ff, 0px 0px 5rem #00ff0099;
+            }
+
+            66% {
+                text-shadow: 0px 0px 1rem #0000ffff, 0px 0px 5rem #0000ff99;
+            }
+        }
+
+        @keyframes Breat {
+
+            0%,
+            100% {
+                box-shadow: 0px 0px 1rem #ff0000ff, 0px 0px 5rem #ff000099, inset 0px 0px 1rem #ff0000ff, inset 0px 0px 5rem #ff000099;
+            }
+
+            12.5% {
+                box-shadow: 0px 0px 1rem #ffFF00ff, 0px 0px 1rem #ffFF0099, inset 0px 0px 1rem #ffFF00ff, inset 0px 0px 1rem #ffFF0099;
+            }
+
+            33% {
+                box-shadow: 0px 0px 1rem #00ff00ff, 0px 0px 5rem #00ff0099, inset 0px 0px 1rem #00ff00ff, inset 0px 0px 5rem #00ff0099;
+            }
+
+            45.5% {
+                box-shadow: 0px 0px 1rem #00FFFFFF, 0px 0px 1rem #00FFFF99, inset 0px 0px 1rem #00FFFFFF, inset 0px 0px 1rem #00FFFF99;
+            }
+
+            66% {
+                box-shadow: 0px 0px 1rem #0000ffff, 0px 0px 5rem #0000ff99, inset 0px 0px 1rem #0000ffff, inset 0px 0px 5rem #0000ff99;
+            }
+
+            78.5% {
+                box-shadow: 0px 0px 1rem #FF00FFFF, 0px 0px 1rem #FF00FF99, inset 0px 0px 1rem #FF00FFFF, inset 0px 0px 1rem #FF00FF99;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="rgb benner">Snoopy</div>
+    <div class="content">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h1 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true"
+                        aria-controls="collapseOne"><strong>關於</strong>
+                    </button>
+                </h1>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>史努比（英語：Snoopy）是美國漫畫家查爾斯·舒茲從1950年代起連載的漫畫作品《花生漫畫》中，由主人翁查理·布朗飼養的一隻外觀為黑白花色的米格魯。牠是《花生漫畫》裡代表性的卡通形象之一，有著充滿自信、喜愛天馬行空幻想的個性，以及許多趣味的擬人化表現演出。</strong>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h1 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><strong>作品描述</strong>
+                    </button>
+                </h1>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>史努比於1950年10月4日在《花生漫畫》中出場，最初牠的外形是舒茲參考他小時候所養一頭名叫史派克（Spike）的寵物狗來繪製。在早期的《花生漫畫》裡，史努比是一頭普通的米格魯，並且沒有擬人化的表現，該時期牠多擔任查理·布朗與朋友嬉戲、遊玩棒球時，一起陪同的寵物。而舒茲一開始連載此漫畫時還沒有敲定好誰才是史努比的飼主，因此曾有史努比出現在其他幾名角色的家中當寵物的場合描寫，如佩蒂與雪米等人。
+                            在1952年3月16日的漫畫裡，舒茲第一次透過氣泡框表現手法來讓史努比呈現出牠內心的想法。隨後在1956年1月9日，首次有史努比以兩腳站立起來的場景。1960年代期間舒茲在史努比的擬人化表現方面下了更多功夫，除了讓牠內心具有著愛幻想的個性之外，也開始在漫畫裡將牠的狗屋只畫側面的角度，來讓讀者對於史努比的生活能有更多想像空間。
+                            行為方面上，因史努比不能說人話，所以在漫畫裡是透過代表內心話的由小到大橢圓形狀對話框來呈現牠的想法。而電視動畫版在不能採用漫畫對話框手法的情況下，便改用藉著各種吠聲、嗚咽、笑聲、比手畫腳方式來表達牠的情感，其中早期電視動畫裡史努比的叫聲是由導演比爾·梅蘭德茲來擔任[13]。在逐漸被塑造出擬人化的風格後，開始有史努比表露出不想做一般寵物在做的事情，牠在休息時也不再像是普通的狗那般鑽進狗屋的洞口，而是直接躺在狗屋的屋頂上。史努比也會做出一些超乎現實能理解的行為，例如牠可以把兩邊的耳朵在頭上旋轉，讓自己像是直升機般在半空中飛行。
+                            史努比的外形與個性是《花生漫畫》所有角色中演變最多的。牠的改變除了獲得到許多讀者的關注迴響之外，也讓舒茲意識到得控制好劇情以避免牠搶了主角查理·布朗的鋒頭。
+                        </strong>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h1 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><strong>角色的關係</strong>
+                    </button>
+                </h1>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>在作品設定上，史努比最早是被一位名叫萊拉的小女孩所飼養，之後因為住在公寓的關係，才忍痛把史努比送回牠的出生狗場[18]。
+                            之後飼養史努比的主人則是查理·布朗，不過因為史努比老是記不起他的名字，在心裡都直接以「圓頭小子」（The Round-Headed
+                            Kid）來稱呼對方。雖然史努比有時會在查理·布朗面前展現出對他毫不在乎的一面，但史努比會在查理·布朗失落或遭遇困難時願意伸出援手，並且會在每天的餵飯時間向查理·布朗展現出牠內心的期待與興奮。查理·布朗的妹妹莎莉·布朗則不太在乎史努比，並對於偶爾得臨時代替她哥哥來照顧史努比的情況感到麻煩，但若是有自己有困難時，莎莉·布朗會任性地直接要求史努比來幫她的忙。
+                            史努比與常和查理·布朗往來的潘貝魯特一家有許多互動，露西·潘貝魯特是常跟史努比互相較勁、打鬧的對手，雖然她對於史努比會突然親她的鼻子或臉頰的行為感到厭惡，但有時也會有給予史努比一個擁抱的溫暖舉動。露西的大弟奈勒斯是一個常被史努比惡作劇的對象，牠喜歡冷不防地衝到奈勒斯身旁咬住對方手上的安全毯，之後把不願放開手上安全毯的奈勒斯給一起拖著走。露西的小弟小雷則是因為內心抱著能有一頭狗當寵物的願望，所以史努比時常收到對方表示希望能去他家玩的邀請。
+                            其他查理·布朗的朋友們方面，史努比有時會跑到愛彈琴的謝勒德面前聆聽對方的彈奏，或是在他的玩具鋼琴一旁鬧場。傅麗達則是會要求史努比臨時充當她的小獵犬，一同到森林裡抓兔子，而史努比對傅麗達的狩獵要求總是設法敷衍了事。喜愛運動的派伯敏特·佩蒂是史努比在體育上的好對手，不過她在一開始認識史努比時有個誤解，她以為對方是個外表有著大鼻子的怪小孩。瑪西為能陪同史努比一起遊玩角色扮演遊戲的玩伴，她在史努比的遊戲裡頭常飾演一名位在法國一間咖啡小館裡的女郎。
+                            史努比私底下最好的朋友是一隻外觀黃色、名叫糊塗塌客的小鳥，牠是史努比在行動上的好搭檔與助手，並且在作品裡也只有史努比能理解牠所發出鳥叫聲的含意。糊塗塌客身邊另外有著名叫比爾（Bill）、弗雷德（Fred）、康拉德（Conrad）、奧利弗（Olivier）、羅伊（Roy）、雷蒙德（Raymond）、威爾森（Wilson）、和哈莉特（Harriet）的夥伴，牠們會與糊塗塌客及史努比一起組成「小獵犬童子軍」（Beagle
+                            Scouts）的團體進行野外露營活動。史努比最厭惡的對象是一頭住在隔壁、名叫二次大戰（World War II）的貓，有時史努比會隔著圍牆向對方挑釁，但結局都是落得遭殃下場。
+                        </strong>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h1 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree"><strong>家族</strong>
+                    </button>
+                </h1>
+                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>雛菊山小狗場（Daisy Hill Puppy
+                            Farm）是史努比的出生地，牠的兄弟姊妹為史派克（Spike）、貝兒（Belle）、奧拉夫（Olaf）、安迪（Andy）、馬布爾斯（Marbles），電視動畫的版本則另外原創出一位名叫羅佛（Rover）的兄弟、和一個名叫茉莉（Molly）的姊妹，連同電視動畫版本計算一共是八名兄弟姊妹。
+                            史努比的父親是一頭戴著帽子與眼鏡、留著鬍子，退休之後居往佛羅里達州過著閑靜生活的狗[41]。史努比的母親最初是在1991年5月1日動畫《Snoopy's
+                            Reunion》上出現，在動畫版裡是一頭普通母狗模樣，之後1996年7月26日首次在原作漫畫上登場時，舒茲將牠外貌繪製成戴著一頂毛帽造型。
+                            兄弟姊妹當中，大哥史派克是體型削瘦、有著兩撇鬍子、戴著帽子的造型，平時獨自一狗居住在加利福尼亞州尼德爾斯一帶的沙漠中，並常與一棵巨人柱仙人掌對話，在兄妹裡牠是與史努比擁有最多互動的角色，牠的名稱則是來自於舒茲曾養過的狗。安迪的外型為毛皮蓬鬆、長相酷似史努比的模樣，有著方向感不太好的毛病，名稱與史派克相同都是引用自舒茲的寵物狗名字；奧拉夫則是戴著帽子、體型胖圓的狗，曾被要求參加「醜狗大賽」（Ugly
+                            Dog
+                            Contest）並拿下優勝，牠與安迪是住在同一間農場裡並時常一同行動。馬布爾斯是有著深咖啡色圓斑紋、穿著鞋子的模樣，性格聰明但對於史努比愛投入腦海裡各種幻想情境的行為無法理解。貝兒是居住在密蘇里州堪薩斯城一帶、外型相似史努比的母狗，並且有扶養著一頭身材高挑的兒子，不過史努比沒有與牠的外甥有著良好互動，因為牠認為對方長得像是頑皮豹。
+                            在《花生漫畫》原作裡雖然沒有提到電視動畫版本新增的羅佛與茉莉兩名角色，不過在1989年6月18日的漫畫中，史努比兄弟姊妹一同寄給了父親一份父親節賀卡，在卡片裡頭有著一共八名子女的狗掌簽名。</strong>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h1 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree"><strong>角色扮演</strong>
+                    </button>
+                </h1>
+                <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>在史努比有擬人化的表現後，舒茲開始添加史努比會嘗試扮演各種形形色色的人物，讓自己陶醉在內心幻想世界的橋段。例如史努比會戴著太陽眼鏡，想像自己是一位行為舉止迷人、名為「酷哥喬」（Joe
+                            Cool）的大學生。
+                            於1960年代期間，出現了史努比頭戴著飛行帽，把自己想成是一位活在一次大戰時期的王牌飛行員「轟炸王」（The World War I Flying
+                            Ace），並把平常使用的狗屋想成是一架牠專用的駱駝式戰鬥機，而綽號「紅男爵」（Red
+                            Baron）的德國飛行員曼弗雷德·馮·里希特霍芬則是牠心裡幻想的宿敵。史努比坐在狗屋上想像與紅男爵進行激烈空戰的戲碼，有被媒體視為是把《花生漫畫》在市場上推向高峰的因素之一。
+                            史努比也會以「世界著名作家」（World Famous Author）自居，把打字機搬到狗屋上來嘗試編寫小說，不過文章開頭第一句幾乎都是「這是一個黑暗的暴風雨夜晚」（It was a
+                            dark and stormy
+                            night），一種在文學界被認為是陳腔濫調的敘事手法。之後在1971年，舒茲出版了一本名叫《這是一個黑暗的暴風雨夜晚》的書籍，並有特意把史努比標示為該書的作者。
+                            而對於史努比這種喜愛角色扮演的行為，舒茲表示著：「史努比為了生活需要逃避到自己的幻想世界裡，不然他只能過著單調又悲慘的日子。狗的生活不是好過的。」</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="imgs">
+        <img src="../Picture/snoopy.jpg" alt="snoopy">
+    </div>
+</body>
+
+</html>
