@@ -4,30 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>結業實作</title>
-    <link rel="stylesheet" href="../bootstrap-5.3.8-dist/css/bootstrap.css">
-    <script src="../bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
-
-    <link rel="shortcut icon" href="../picture/favicon.png" type="image/x-icon">
+    <title>期末</title>
+    <link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../0517/style.css">
-
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Roboto:ital@0;1&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <style>
-
-
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css"
+        integrity="sha512-2bBQCjcnw658Lho4nlXJcc6WkV/UxpE/sAokbXPxQNGqmNdQrWqtw26Ns9kFF/yG792pKR1Sx8/Y1Lf1XN4GKA=="
+        crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.bundle.min.js"
+        integrity="sha512-HvOjJrdwNpDbkGJIG2ZNqDlVqMo77qbs4Me4cah0HoDrfhrbA+8SBlZn1KrvAQw7cILLPFJvdwIgphzQmMm+Pw=="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./plugins/style.css">
 </head>
 
 <body>
-    <section id="asaslide" class="carousel slide data-bs-interval=" 3000 data-bs-ride="carousel">
+    <section id="asaSlider" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
         <div class="carousel-indicators">
-            <button type="button" data-bs-target="#asaslide" data-bs-slide-to="0" class="active"></button>
-            <button type="button" data-bs-target="#asaslide" data-bs-slide-to="1"></button>
-            <button type="button" data-bs-target="#asaslide" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#asaSlider" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#asaSlider" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#asaSlider" data-bs-slide-to="2"></button>
         </div>
         <div class="carousel-inner">
             <div class="carousel-item vh-100 active">
@@ -54,8 +56,8 @@
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#asaslide" data-bs-slide="prev">
             <!--<span class="carousel-control-prev-icon" aria-hidden="true"></span>-->
-            <i class="material-symbols-outlined">arrow_menu_close</i>
-            <i class="visually-hidden">Previous</i>
+            <span class="material-symbols-outlined">arrow_menu_close</span>
+            <!--<span class="visually-hidden">Previous</span>-->
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#asaslide" data-bs-slide="next">
             <!--<span class="carousel-control-next-icon" aria-hidden="true"></span>-->
@@ -65,60 +67,131 @@
 
 
     </section>
-    <section id="asa1" class="container py-5">
-        <header class="h2 border-start border-5 border-warning ps-3 mb-5">營位介紹</header>
-        <article class="row row-cols-1 row-cols-md-2 g-3 g-md-5">
-            <div class="col">
-                <div class="card text-bg-dark">
-                    <img src="https://picsum.photos/800/600/?random=10" class="card-img" alt="...">
-                    <div class="card-img-overlay">
-                        <h3 class="card-title text-warning fw-bolder">Card title</h3>
-                        <ul class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional
-                            content. This content is a little bit longer.</ul>
-                        <ui class="card-text"><small>Last updated 3 mins ago</small></ui>
-                    </div>
-                </div>
+    <section>
+        <div id="asa1" class="container py-5">
+            <div class="row row-cols-4 g-0 mb-5">
+                <img src="https://picsum.photos/500/400/?random=10" class="img-fluid object-fit-cover col ">
+                <img src="https://picsum.photos/500/400/?random=11" class="img-fluid object-fit-cover col ">
+                <img src="https://picsum.photos/500/400/?random=12" class="img-fluid object-fit-cover col ">
+                <img src="https://picsum.photos/500/400/?random=13" class="img-fluid object-fit-cover col ">
             </div>
-            <div class="col">
-                <div class="card text-bg-dark">
-                    <img src="https://picsum.photos/800/600/?random=10" class="card-img" alt="...">
-                    <div class="card-img-overlay">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional
-                            content. This content is a little bit longer.</p>
-                        <p class="card-text"><small>Last updated 3 mins ago</small></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card text-bg-dark">
-                    <img src="https://picsum.photos/800/600/?random=10" class="card-img" alt="...">
-                    <div class="card-img-overlay">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional
-                            content. This content is a little bit longer.</p>
-                        <p class="card-text"><small>Last updated 3 mins ago</small></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card text-bg-dark">
-                    <img src="https://picsum.photos/800/600/?random=10" class="card-img" alt="...">
-                    <div class="card-img-overlay">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional
-                            content. This content is a little bit longer.</p>
-                        <p class="card-text"><small>Last updated 3 mins ago</small></p>
-                    </div>
-                </div>
-            </div>
-        </article>
-    </section>
 
+            <header class="h2 border-start border-5 border-warning ps-3 mb-5">營位介紹</header>
+            <article class="row row-cols-1 row-cols-md-2 g-3 g-md-5">
+                <div class="col">
+                    <div class="card text-bg-dark border-0">
+                        <img src="https://picsum.photos/800/600/?random=10" class="card-img rounded-0">
+                        <div class="card-img-overlay">
+                            <h3 class="card-title text-warning fw-bolder">Card title</h3>
+                            <ul class="card-text">This is a wider card with supporting text below as a natural lead-in
+                                to
+                                additional
+                                content. This content is a little bit longer.</ul>
+                            <ui class="card-text"><small>Last updated 3 mins ago</small></ui>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-bg-dark">
+                        <img src="https://picsum.photos/800/600/?random=11" class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional
+                                content. This content is a little bit longer.</p>
+                            <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-bg-dark">
+                        <img src="https://picsum.photos/800/600/?random=12" class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional
+                                content. This content is a little bit longer.</p>
+                            <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-bg-dark">
+                        <img src="https://picsum.photos/800/600/?random=13" class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional
+                                content. This content is a little bit longer.</p>
+                            <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <header class="h2 my-5 border-start border-5 border-warning ps-3 mb-5">遊客服務</header>
+            <article class="row row-cols-1 row-cols-md-3 gy-3">
+                <div class="col">
+                    <div class="card h-100 text-bg-dark rounded-0 shadow-lg py-3">
+                        <div class="card-header text-center">
+                            <h3 class="card-title">Card title</h3>
+                            <img src="https://picsum.photos/150/150/?random=10"
+                                class="rounded-circle border border-info border-5 m-3">
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's
+                                content.</p>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 text-bg-dark rounded-0 shadow-lg py-3">
+                        <div class="card-header text-center">
+                            <h3 class="card-title">Card title</h3>
+                            <img src="https://picsum.photos/150/150/?random=11"
+                                class="rounded-circle border border-secondary border-3 m-3">
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's
+                                content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis praesentium
+                                cum
+                                excepturi quis ut sequi ipsam, delectus nulla suscipit nostrum, magnam saepe cupiditate
+                                eum
+                                accusantium, rerum fugit quas aliquid repudiandae.</p>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 text-bg-dark rounded-0 shadow-lg py-3">
+                        <div class="card-header text-center">
+                            <h3 class="card-title">Card title</h3>
+                            <img src="https://picsum.photos/150/150/?random=12"
+                                class="rounded-circle border border-secondary border-3 m-3">
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's
+                                content.</p>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
 
 </body>
 
